@@ -1,0 +1,140 @@
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'raleway', sans-serif;
+    font-size: 16px;
+    line-height: 180%;
+    color: #fff;
+    line-height: 180%;
+    
+}
+
+#header {
+    background-color: #282828;
+    
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  
+    
+        
+    
+}
+
+.title {
+    font-size: 24px;
+}
+
+
+
+.sub-title {
+    font-size: 14px;
+    
+
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.menu {
+  
+
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    
+    
+}
+.menu li {
+
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.menu li:hover {
+  
+    background-color: #fff;
+  
+}
+
+.color {
+    background-color: #005171;
+}
+
+.container1 {
+    position: relative;
+    width: 100%; /* Ajuste conforme necessário */
+    max-width: 800px; /* Ajuste conforme necessário */
+    margin: 0 auto;
+    display: flex;
+
+    align-items: flex-start;
+    padding: 20px; /* Adiciona algum espaço interno para afastar do conteúdo da página */
+  }
+
+  .intro,
+  .image-container,
+  .description {
+    background-color: #005171; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    color: #fff; 
+  }
+
+  .intro h2 {
+    margin: 0; 
+  }
+
+  .image-container {
+    position: relative;
+    width: 50%; 
+    margin: 20px 0;
+    border: 1px solid #ccc; 
+    overflow: hidden;
+    padding: 4px;
+    background-color: #ddd;
+    border-radius: 4px;
+    flex: 1;
+
+    overflow: hidden;
+
+  }
+
+  
+
+  .image-container img {
+    
+    height: auto;
+    display: block;
+    
+
+    max-width: 100%;
+
+  }
+
+  .description {
+    
+    width: 50%; 
+    text-align: left;
+    text-align: justify;
+    margin: 0 0 10px;
+    flex: 1;
+    margin-left: 20px;
+  }
+
+    
